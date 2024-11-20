@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo a {
+    color: lightgreen;
+    font-size: 3rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+nav ul.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 180px;
+    margin-left: 25px;
+    font-size: 2rem;    
+    margin-right: 20px;
+}
+
+nav ul.nav-links li a {
+    color:lightgreen;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav ul.nav-links li a:hover {
+    color: #ff6347;
+}
+
+
+.hero {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #ff6347;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #e5533e;
+}
+
+
+.about, .services, .contact {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about h2, .services h2, .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+.services .service-item {
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.services .service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.services .service-item p {
+    font-size: 1rem;
+}
+
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input, .contact form textarea {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 12px 20px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #00796b;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/025/102/490/large/jorge-jacinto-wisp-red.jpg?1584627212);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abhay
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /*gap: 1rem;
+    */margin-top: 2rem;
+}
+.abhay img
+{
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    object-fit: cover;
+    margin-top: 90px;
+    padding: 20px;
+}
+.abhay img:hover
+{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+p{
+   color: lightgreen;
+   font-size: x-large; 
+   text-align: center;
+   padding: 9px;
+   height: 500px;
+   width: 400px;
+   font-family: cursive;
+}
+strong{
+    font-weight: 900px;
+    margin: 30px;
+    font-size: xx-large;
+}
